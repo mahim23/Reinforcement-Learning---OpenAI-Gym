@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 env = gym.make("CartPole-v1")
 
 MAXSTATES = 10**4
-GAMMA = 1
+GAMMA = 0.09
 ALPHA = 0.01
 
 def max_dict(d):
